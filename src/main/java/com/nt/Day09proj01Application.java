@@ -10,7 +10,7 @@ import com.nt.sbeans.Employee;
 public class Day09proj01Application {
 
 	public static void main(String[] args) {
-		int b=20;
+		System.out.println("hello");
 		ConfigurableApplicationContext ctx =SpringApplication.run(Day09proj01Application.class, args);
 		Employee emp=ctx.getBean("emp",Employee.class);
 		System.out.println(emp);
